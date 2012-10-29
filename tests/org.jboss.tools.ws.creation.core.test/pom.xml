@@ -31,6 +31,23 @@
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
+					<dependencies>
+<!-- 						<dependency> -->
+<!-- 							<type>p2-installable-unit</type> -->
+<!-- 							<artifactId>org.jboss.tools.ws.feature.feature.group</artifactId> -->
+<!-- 							<version>0.0.0</version> -->
+<!-- 						</dependency> -->
+						<dependency>
+							<type>p2-installable-unit</type>
+							<artifactId>org.jboss.ide.eclipse.as.feature.feature.group</artifactId>
+							<version>0.0.0</version>
+						</dependency>
+<!-- 						<dependency> -->
+<!-- 							<type>p2-installable-unit</type> -->
+<!-- 							<artifactId>org.eclipse.jdt.feature.group</artifactId> -->
+<!-- 							<version>0.0.0</version> -->
+<!-- 						</dependency> -->
+					</dependencies>
 				</configuration>
 			</plugin>
 			<plugin>
